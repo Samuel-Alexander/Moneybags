@@ -1,6 +1,6 @@
 # Multi-Blockchain Wallet in Python
 
-![https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet]
+![Learn_Illustration_What_is_a_Crypto_Wallet](https://user-images.githubusercontent.com/75221323/120938405-2cb18880-c6d8-11eb-92c4-5c9d1be7dcaf.png)
 
 ## SUMMARY
 
