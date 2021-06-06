@@ -1,29 +1,17 @@
 # Multi-Blockchain Wallet in Python
 
-![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
+![https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet]
 
-## Background
+## SUMMARY
 
-Your new startup is focusing on building a portfolio management system that supports not only traditional assets
-like gold, silver, stocks, etc, but crypto-assets as well! The problem is, there are so many coins out there! It's
-a good thing you understand how HD wallets work, since you'll need to build out a system that can create them.
+Creating and executing cryptocurrency transactions in the command line/terminal using hd-wallet-derive and python. Wallet supports BIP32, BIP39, and BIP44, and other non-standard derivation paths for the most popular wallets out there today. Script is integrated into the backend with Python.
 
-You're in a race to get to the market. There aren't as many tools available in Python for this sort of thing, yet.
-Thankfully, you've found a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
-also supports non-standard derivation paths for the most popular wallets out there today! However, you need to integrate
-the script into your backend with your dear old friend, Python.
-
-Once you've integrated this "universal" wallet, you can begin to manage billions of addresses across 300+ coins, giving
-you a serious edge against the competition.
-
-In this assignment, however, you will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
-Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
+Test transactions executed using ETH and BTCTEST
 
 ## Dependencies
 
-The following dependencies are required for this assignment and were likely already installed as part of your preparation for in-class activities. 
+The following dependencies are required to run the script: 
 
-> **Important:** If you have _not_ already installed the dependencies listed below, you may do so by following the instructions found in the following guides:
   > - [HD Wallet Derive Installation Guide](Resources/HD_Wallet_Derive_Install_Guide.md) 
   > - [Blockchain TX Installation Guide](Resources/Blockchain_TX_Install_Guide.md).
 
@@ -215,25 +203,3 @@ The following dependencies are required for this assignment and were likely alre
       MyCrypto's TX Status, and screenshot the successful transaction like so:
 
       ![eth-test](Images/eth-test.png)
-### 7. Challenge Mode - **OPTIONAL**
-
-- Add support for `BTC`.
-
-- Add support for `LTC` using the sister library, [`lit`](https://github.com/blockterms/lit).
-
-- Add a function to track transaction status by `txid`.
-### 8. Submission
-
-- Create a `README.md` that contains the test transaction screenshots, as well as the code used to send them.
-  Pair the screenshot with the line(s) of code.
-
-- Write a short description about what the wallet does, what it's built with, and how to use it.
-
-- Include installing pip dependencies using `requirements.txt`, as well as cloning and installing `hd-wallet-derive`.
-  You may include the `hd-wallet-derive` folder in your repo, but still include the install instructions. You do not
-  need to include Python or PHP installation instructions.
-
-- Upload the project to a new GitHub repository.
-
-- Celebrate the fact that you now have an incredibly powerful wallet that you can expand to hundreds of coins!
-
